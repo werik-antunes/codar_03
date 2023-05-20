@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* Ler um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N 
+        (inclusive). Considere que o N será sempre maior que ZERO.
+         N  é um valor informado pelo usuário*/
+      
+        var N = parseInt(prompt("Digite um número inteiro maior que zero:"))
+
+       
+        if (isNaN(N) || N <= 0) {
+           alert("Por favor, digite um número inteiro maior que zero.")
+        } else {
+           
+            for (var i = 1; i <= N; i++) {
+                alert(i)
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>

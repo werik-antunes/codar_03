@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*Escreva um programa para imprimir todas as tabuadas de 1 a N. N será informado pelo usuário.*/
+        var n = Number(prompt("Qual o numero da tabuada:"))
+        var cont = 1
+        var t = 1
+        while (t < n) {
+            cont = 1;
+            while (cont < n) {
+                alert(t + " x " + cont + '=' + (cont * t))
+                cont++
+            }
+            t++
+        }
+
+
+
+    </script>
+</body>
+
+</html>
